@@ -86,18 +86,15 @@
       border-radius: 15px;
       box-shadow: 0 4px 20px rgba(0,0,0,0.3);
     }
-    audio {
-      display: none;
-    }
+   
   </style>
 </head>
 <body>
-  <audio autoplay loop>
-    <source src="https://open.spotify.com/embed/track/6M4Yt1c1dKra1vKSz7sQce" type="audio/mpeg">
+   <audio controls loop preload="none">
+    <source src="music/Lady Gaga, Bruno Mars - Die With A Smile (Official Music Video).mp3" type="audio/mpeg">
     
-  </audio>
-
-  <div class="hearts">
+   </audio> 
+  
     <!-- Geração de vários corações -->
     <script>
       for (let i = 0; i < 30; i++) {
